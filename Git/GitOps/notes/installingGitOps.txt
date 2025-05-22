@@ -1,0 +1,13 @@
+Prerequisites
+Before you can install Weave GitOps Open Source, you will need:
+
+An account with a Git provider like GitHub or GitLab, along with a personal access token with repo permissions;
+Your Git client configured properly (if using GitHub, for example, then review their docs on setting your username and your email address)
+Docker Desktop
+A Kubernetes cluster such as Kind
+kubectl
+A public GitHub repo called fleet-infra. To create this, follow GitHub’s instructions—using fleet-infra instead of hello-world.
+We also recommend taking a look at the Flux Core Concepts page if you need to brush up on terminology.
+
+We also recommend taking a look at the Flux Core Concepts page if you need to brush up on terminology.
+
