@@ -1,0 +1,30 @@
+- Adopting GitOps can bring a number of key benefits—including faster and more frequent deployments, easy recovery from failures, 
+and improved security and auditabiity.
+
+- Weave GitOps Open Source: a simple, open source developer platform for people who don't have Kubernetes expertise 
+but who want cloud native applications. It includes the UI and many other features that take your team beyond a simple CI/CD system
+--> https://docs.gitops.weaveworks.org/docs/open-source/getting-started/install-OSS/
+
+- Weave GitOps works on any Chromium-based browser (Chrome, Opera, Microsoft Edge), Safari, and Firefox
+
+- explore the UI --> https://docs.gitops.weaveworks.org/docs/open-source/getting-started/ui-OSS/
+
+- Flux: https://fluxcd.io/flux/
+
+Features:
+♾ Continuous Delivery through GitOps for apps and infrastructure.
+🧩 Support for GitHub, GitLab, and Bitbucket; S3-compatible buckets as a source; all major container registries; and all CI workflow providers.
+🔑 A secure, pull-based mechanism, operating with least amount of privileges, and adhering to Kubernetes security policies.
+🔌 Compatibility with any conformant Kubernetes version and common ecosystem technologies such as Helm, Kustomize, RBAC, Prometheus, OPA, Kyverno, etc.
+🏢 Multitenancy, multiple Git repositories, multiple clusters.
+❗ Alerts and notifications.
+
+Things you can do with it: 
+✔️ Application Operations—manage and automate deployment pipelines for apps and more.
+Easily have your own custom PaaS on cloud or on premise.
+🔗 Coordinate Kubernetes rollouts with virtual machines, databases, and cloud services.
+Drill down into more detailed information on any given Flux resource.
+🔍 Uncover relationships between resources and quickly navigate between them.
+Understand how workloads are reconciled through a directional graph.
+🥽 View Kubernetes events relating to a given object to understand issues and changes.
+🚷 Secure access to the dashboard through the ability to integrate with an OIDC provider (such as Dex).
